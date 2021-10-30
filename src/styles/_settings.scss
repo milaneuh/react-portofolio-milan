@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Josefin+Sans:wght@100&family=Lato&display=swap');
+
+$font-lato: 'Lato', cursive;
+$font-dosis: 'Dosis', sans-serif;
+$font-josefin: 'Josefin Sans', serif;
+
+$color-QueenBlue: #406787;
+$color-ViridianGreen: #406787;
+$color-MediumTurquoise: #64D9D2;
+$color-Opal: #B8D6D4;
+$color-Cultured: #F5F5F5;
+$black: #333;
+$white: #ddd;
+
+$borderRadius: 25px;
+$shadow: 0 1px 3px #333;
+$minHeight:  95vh;
+
+@mixin verticalCenter {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 1rem auto;
+    max-width: 1200px;
+    font-family: $font-lato;
+    color: $color-QueenBlue;
+}
+
+button{
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: $color-QueenBlue;
+    cursor: pointer;
+}
+
+a:visited{
+    color: $color-QueenBlue;
+}
+
+.home, .skills, .portfolio, .contact{
+    display: flex;
+
+    @media screen and (max-width: 850px){
+        display: block !important;
+    }
+}
+
+.homeContent, .skillsContent, .portfolioContent, .contactContent{
+    margin-left: .4rem;
+
+    @media screen and (max-width: 850px){
+        margin-left: 0 !important;
+    }
+} 
+
+
+

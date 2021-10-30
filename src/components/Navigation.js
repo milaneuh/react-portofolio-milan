@@ -58,6 +58,9 @@ const Navigation = () => {
                         </a>
                     </li>
                 </ul>
+                <div className="copyright">
+                    <p>Made with React.js | 2021</p>
+                </div>
             </div>
         </div>
     );
