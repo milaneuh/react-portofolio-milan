@@ -19,9 +19,8 @@ $minHeight:  95vh;
 @mixin verticalCenter {
     display: flex;
     justify-content: center;
-    align-self: center;
-}
-
+    align-items: center; 
+  }
 * {
     box-sizing: border-box;
     margin: 0;
