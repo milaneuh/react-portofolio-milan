@@ -1,7 +1,7 @@
 .home {
 
     .homeContent {
-      background: linear-gradient(115deg, $color-MediumTurquoise 50%, transparent 100%);
+      background: linear-gradient(115deg, $color-UnitedNationBlue 50%, transparent 100%);
       min-height: $minHeight;
       width: 100%;
       min-height: 500px;
@@ -30,13 +30,13 @@
           font-family: $font-josefin;
           color: $white;
           text-transform: uppercase;
-          text-shadow: 3px 6px 2px #449c96;
+          text-shadow: 3px 6px 2px #3F79D0;
         }
         h2 {
           font-size: 2.5rem;
           padding: 1.5rem 0 7rem;
-          color: $color-Opal;
-          text-shadow: 1px 4px 1px #449c96;
+          color: #BACFEE;
+          text-shadow: 1px 4px 1px #3F79D0;
         }
         .pdf {
           a {
@@ -44,7 +44,7 @@
             background: $color-Opal;
             padding: 1rem 2rem;
             border-radius: $borderRadius;
-            box-shadow: 0 5px 1px rgb(68, 156, 150);
+            box-shadow: 0 5px 1px rgb(63, 121, 208);
             transition: 0.2s ease;
   
             &:hover {
