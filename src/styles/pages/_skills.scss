@@ -49,10 +49,10 @@
           display: flex;
           justify-content: space-between;
           color: $white;
-  
+            
           span {
             width: 36%;
-  
+            
             &:nth-child(2){
               text-align: center; 
               width: 20%;
@@ -67,7 +67,7 @@
               content:'';
               background: rgba(180, 179, 179, 0.507);
               position: absolute;
-              height: 186px;
+              height: 182px;
               width: 1px;
               transform: translate(9px, 19px);
             }
@@ -189,7 +189,7 @@
     }
   }
   @media screen and (max-width: 950px){
-    .knowledgesContent {
+    .skillsContent {
       h3 {
         font-size: 1.2rem !important;
       }
@@ -205,7 +205,7 @@
     }
   }
   @media screen and (max-width: 850px){
-    .knowledgesContent {
+    .skillsContent {
       h4 {
         font-size: .9rem !important;
       }
@@ -216,7 +216,7 @@
     }
   }
   @media screen and (max-width: 500px){
-    .knowledgesContent {
+    .skillsContent {
       display: grid !important;
       grid-template-columns: 1fr !important;
       grid-template-rows: 1fr 1fr 180px 180px !important;
@@ -224,7 +224,7 @@
       .languages {
         grid-area: 1 !important;
       }
-      .experience {
+      .experiences {
         grid-area: 2 !important;
         margin-left: 0 !important;
       }
@@ -236,5 +236,8 @@
         grid-area: 4 !important;
         margin-top: .5rem !important;
       }
+      .languagesFrameworks .years span:nth-child(2):before, .languagesFrameworks .years span:nth-child(3):before {
+        height: 155px  !important;
+    }
     }
   }
