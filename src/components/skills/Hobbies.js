@@ -15,7 +15,7 @@ const Hobbies = () => {
                 </li>
                 <li className="hobby">
                     <i class="fas fa-suitcase"></i>
-                    <span>Trip</span>
+                    <span>Travelling</span>
                 </li>
                 <li className="hobby">
                     <i class="fas fa-hiking"></i>

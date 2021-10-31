@@ -7,7 +7,7 @@ const Experiences = () => {
             <div className="exp1">
                 <h4>Mobile app Designer and Developer</h4>
                 <h5><span>Alexandre ODA</span> | Internship. Oct.2021 - Nov.2021</h5>
-                <p>Design and Developpement of an Android application based on data protection against IMSI Catchers. My contributions were : <br />
+                <p>Design and Development of an Android application based on data protection against IMSI Catchers. My contributions were : <br />
                         -UML <br />
                         -Wireframing <br />
                         -Developping a Java Android application</p>
@@ -16,7 +16,7 @@ const Experiences = () => {
                 <h4>Network technician</h4>
                 <h5><span>DSI Toulouse métropole</span> | Internship. Fev.2021</h5>
                 <p>Within the IT Department from Toulouse Métropole: <br />
-                    -Switchs configuraition<br />
+                    -Switches configuraition<br />
                     -Setting up servers<br />
                     -tickets responses.
                 </p>
