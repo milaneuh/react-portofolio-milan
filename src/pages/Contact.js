@@ -3,11 +3,12 @@ import Navigation from '../components/Navigation';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 const Contact = () => {
     return (
-        <div>
+        <div className="contact">
             <Navigation/>
             <div className="contactContent">
-
-            </div>
+                <div className="header">
+                    
+                </div>
             <div className="contactBox">
                 <h1>Contact me !</h1>
                 <ul>
@@ -51,10 +52,11 @@ const Contact = () => {
                     </a>
 
                     <a href="https://codepen.io/milaneuh" target="_blank" rel="noopener noreferrer">
-                        <h4>CodePen</h4>
-                        <i className="fab fa-codepen"></i>
-                    </a>
+                           <h4>CodePen</h4>
+                            <i className="fab fa-codepen"></i>
+                        </a>
                 </ul>
+            </div>
             </div>
         </div>
     );

@@ -21,8 +21,15 @@
             left: 50%;
             transform: translateX(-50%);
             width: 100%;
-            img {
+            .profileImage{
+                margin: auto;
                 border-radius: 50%;
+                height: 150px;
+                width: 150px;
+                background-image: url('./navigation-media/milanRougemont.jpg');
+                backgrund-position: 50% 50%;
+                background-repeat: no-repeat;
+                background-size: cover;
             }
             h3 {
                 font-size: 1.1rem;
