@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
-
+import PDFMILAN from '../media/CVMILAN.pdf'
 const Home = () => {
     return (
         <div className="home">
@@ -10,7 +10,7 @@ const Home = () => {
                     <h1>Milan Rougemont</h1>
                     <h2>Web & Mobile Developer</h2>
                     <div className="pdf">
-                        <a href="./media/CVMILAN.pdf" target="_blank">
+                        <a href={PDFMILAN} target="_blank">
                             Download Resume
                         </a>
                     </div>

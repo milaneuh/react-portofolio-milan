@@ -15,7 +15,7 @@ class Projectlist extends Component {
             {id:6,value:"kotlin"},
 
         ],
-        selectedRadio: "javascript"
+        selectedRadio: ""
     };
 
     handleRadio = (event) =>{
@@ -48,6 +48,8 @@ class Projectlist extends Component {
                 </ul>
                 <div className="projects">
                     {
+                        selectedRadio != ""?
+                        (
                         projects
                         .filter(item => item.languages.includes(selectedRadio))
                         .map(project => {
@@ -58,6 +60,17 @@ class Projectlist extends Component {
                                 />
                             )
                         })
+                        ):
+                        (
+                            projects.map(project => {
+                                return(
+                                    <Project
+                                        key={project.id}
+                                        item={project}
+                                    />
+                                )
+                            })
+                        )
                     }
                 </div>
             </div>

@@ -1,21 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Josefin+Sans:wght@100&family=Lato&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Josefin+Sans:wght@100&family=Lato&family=Montserrat:wght@500&display=swap');
 $font-lato: 'Lato', cursive;
 $font-dosis: 'Dosis', sans-serif;
 $font-josefin: 'Josefin Sans', serif;
-
+$font-montserrat: 'Montserrat', serif;
 $color-QueenBlue: #28445a;
 $color-ViridianGreen: #406787;
 $color-MediumTurquoise: #64D9D2;
-$color-Opal: #b3c7c6;
-$color-UnitedNationBlue: #6392D9;
-$color-Cultured: #F5F5F5;
+
+$color-Opal: #FF9F1C;
+$color-UnitedNationBlue: #2EC4B6;
+$color-Cultured: #CBF3F0;
 $black: #333;
 $white: #ddd;
 
 $borderRadius: 25px;
 $shadow: 0 1px 3px #333;
 $minHeight:  95vh;
+$boxShadow: 0 0 128px 0 rgba(0, 0, 0, 0.1), 0 32px 64px -48px rgba(0, 0, 0, 0.5);
 
 @mixin verticalCenter {
     display: flex;
@@ -33,6 +34,7 @@ body{
     max-width: 1200px;
     font-family: $font-lato;
     color: $color-QueenBlue;
+    background: #F7F7F7;
 }
 
 button{

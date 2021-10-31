@@ -2,22 +2,26 @@
     @include verticalCenter;
     height: 95vh;
     max-width: 1200px;
-    background: $color-MediumTurquoise;
+    background: $white;
     border-radius: $borderRadius;
     text-align: center;
+    box-shadow: $boxShadow;
   
     h3 {
       margin-bottom: 3rem;
       font-size: 2rem;
+      color: $black;
     }
     a {
       padding: 1rem 2rem;
       border-radius: $borderRadius;
-      background: $color-Opal;
+      background: $color-UnitedNationBlue;
+      color: $white;
       transition: .2s;
   
       &:hover {
-        background: $white;
+        background: $color-Opal;
+        color: $white;
       }
     }
   }

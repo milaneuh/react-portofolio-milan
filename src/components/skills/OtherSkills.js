@@ -13,6 +13,12 @@ const OtherSkills = () => {
                     <li><i class="fas fa-check-square"></i>MySQL</li>
                     <li><i class="fas fa-check-square"></i>UML</li>
                     <li><i class="fas fa-check-square"></i>UI/UX Designer</li>
+                    <li><i class="fas fa-check-square"></i>Kotlin</li>
+                    <li><i class="fas fa-check-square"></i>jQuery</li>
+                    <li><i class="fas fa-check-square"></i>MCD-MLD</li>
+                    <li><i class="fas fa-check-square"></i>Thymeleaf</li>
+                    <li><i class="fas fa-check-square"></i>Hibernate</li>
+
                     
 
                 </ul>

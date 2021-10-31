@@ -17,15 +17,15 @@ const Contact = () => {
                         <span>Charente-Maritime - France</span>
                     </li>
                     <li>
-                        <i className="fas fa-mobile-alt">
+                        <i className="fas fa-mobile-alt"></i>
                         <CopyToClipboard text="+33781876967">
-                            <span 
-                            className="clickInput" 
-                            onClick={() => {alert('Copied !')}}>
-                                07 81 87 69 67
+                        <span
+                                className="clickInput"
+                                onClick ={() => { alert('Copied !')}}>
+                                    0781876967
                             </span>
                         </CopyToClipboard>
-                        </i>
+                        
                     </li>
                     <li>
                         <i className="far fa-envelope"></i>

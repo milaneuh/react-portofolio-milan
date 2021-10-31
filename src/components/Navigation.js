@@ -6,8 +6,8 @@ const Navigation = () => {
         <div className="sideBar">
             <div className="id">
                 <div className="idContent">
-                    <div className="profileImage"></div>
                     <h3>Milan Rougemont</h3>
+                    <div className="profileImage"></div>
                 </div>
             </div>
 

@@ -1,7 +1,8 @@
 .home {
 
     .homeContent {
-      background: linear-gradient(115deg, $color-UnitedNationBlue 50%, transparent 100%);
+      box-shadow: $boxShadow;
+      background: linear-gradient(140deg, $white 45%, transparent 100%);
       min-height: $minHeight;
       width: 100%;
       min-height: 500px;
@@ -27,28 +28,30 @@
   
         h1 {
           font-size: 5rem;
-          font-family: $font-josefin;
-          color: $white;
+          font-family: $font-montserrat;
+          color: $black;
           text-transform: uppercase;
-          text-shadow: 3px 6px 2px #3F79D0;
         }
         h2 {
           font-size: 2.5rem;
           padding: 1.5rem 0 7rem;
-          color: #BACFEE;
-          text-shadow: 1px 4px 1px #3F79D0;
+          color: $color-UnitedNationBlue;
+          text-shadow: 1px 4px 1px $color-ViridianGreen;
         }
         .pdf {
           a {
             font-size: 1.5rem;
-            background: $color-Opal;
+            background: $color-UnitedNationBlue;
             padding: 1rem 2rem;
             border-radius: $borderRadius;
-            box-shadow: 0 5px 1px rgb(63, 121, 208);
+            box-shadow: 0 5px 1px $color-ViridianGreen;
             transition: 0.2s ease;
-  
+            color: $white;
+
             &:hover {
-              background: $white;
+              background: $color-Opal;
+              box-shadow: 0 5px 1px rgb(224, 131, 0);
+              color: $black;
             }
           }
         }

@@ -1,5 +1,6 @@
 .contactContent {
-    background: $color-UnitedNationBlue;
+    box-shadow: $boxShadow;
+    background: $white;
     border-radius: $borderRadius;
     width: 100%;
     overflow: hidden;
@@ -15,7 +16,7 @@
       grid-area: 1;
       width: 100%;
       position: relative;
-      background: $color-MediumTurquoise;
+      background: $color-Cultured;
       height: 340px;
   
       &:before {
@@ -24,7 +25,6 @@
         height: 100%;
         position: absolute;
         background: url(../../media/map.jpg) no-repeat center top/cover;
-        filter: grayscale(100%);
       }
       &:after {
         content: '';
@@ -52,13 +52,13 @@
         text-align: center;
         margin-top: 0.3rem;
         position: relative;
-        color: $color-Opal;
+        color: $white;
   
         &:after {
           content: '';
           height: 1px;
           width: 50%;
-          background: $color-Opal;
+          background: $white;
           position: absolute;
           bottom: -25px;
           left: 50%;
@@ -79,7 +79,7 @@
           font-size: 1.4rem;
           position: absolute;
           transform: translateY(2px);
-          color: $color-Opal;
+          color: $white;
         }
         span {
           font-size: 1.4rem;
@@ -110,7 +110,7 @@
         a {
           width: 20%;
           font-size: 1.2rem;
-          background: $color-Opal;
+          background: $color-UnitedNationBlue;
           border-radius: $borderRadius;
           display: inline-block;
           padding: 0.7rem 0;
@@ -119,13 +119,17 @@
           transform-origin: center;
           transition: .2s ease;
           transition: scale .1s;
-  
+          color: $white;
           &:hover {
-            background: $white;
+            background: $color-Opal;
+            color: $black;
+            i{
+              color: $black ;
+            }
           }
   
           i {
-            color: $color-Opal;
+            color: $white;
             margin-top: .3rem;
           }
         }
