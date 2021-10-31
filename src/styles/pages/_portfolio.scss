@@ -236,9 +236,15 @@
         .project {
           //grid-template-rows: 30px 40px 80px 40px !important;
           width: 98% !important;
-    
+          
           img {
             height: 100% !important;
+          }
+        }
+        .showInfos{
+          position: fixed;
+          .infosContent{
+            width: auto;
           }
         }
       }

@@ -16,7 +16,7 @@ export const portfolioData =
         languagesIcons:["fab fa-android"],
         source:"https://github.com/milaneuh/bee-message",
         info: "'Bee Message' is an instant messaging app on Android. This app was made in Kotlin and used Firebase Firestore as a database and used Firebase Cloud Messaging for the messaging solution.",
-        picture:'./media/projects-icon/bee-message.png'
+        picture:'./media/projects-icon/beeMessage.png'
     },
     {
         id:3,
@@ -25,7 +25,7 @@ export const portfolioData =
         languagesIcons:["fab fa-php","fab fa-css3-alt","fab fa-js"],
         source:"https://github.com/milaneuh/Web-chat-app",
         info:"This Personnal Project is an instant messaging web application using Php to communicate with my MySQL database. I made this project to excercise myself with MySQL and Php.",
-        picture:'./media/projects-icon/web-chat-app.png'
+        picture:'./media/projects-icon/webChatApp.PNG'
     },
     {
         id:4,
@@ -34,7 +34,7 @@ export const portfolioData =
         languagesIcons:["fab fa-react","fab fa-css3-alt"],
         source:'https://github.com/milaneuh/react-portofolio-milan',
         info:"You are currently on this website! This website was made with React.JS and SCSS. I tried to use as much SCSS and React as possible to show my skills.",
-        picture:'./media/projects-icon/my-portfolio.png'
+        picture:'./media/projects-icon/myPortfolio.PNG'
     },
     {
         id:5,
@@ -43,6 +43,6 @@ export const portfolioData =
         languagesIcons:["fab fa-bootstrap","fab fa-css3-alt"],
         source:"https://github.com/milaneuh/Practical-Project-Bootstrap",
         info:"This is a practical project which involved creating a Website for a gouvernement facility using Bootstrap and CSS",
-        picture:'./media/projects-icon/practical-project-bootstrap.png'    }
+        picture:'./media/projects-icon/practicalProjectBootstrap.PNG'    }
 
 ]
