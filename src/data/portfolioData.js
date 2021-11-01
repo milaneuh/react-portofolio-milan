@@ -6,7 +6,7 @@ export const portfolioData =
         languages:["javascript","bootstrap","css"],
         languagesIcons:["fab fa-js","fab fa-bootstrap","fab fa-css3-alt"],
         source: 'https://github.com/milaneuh/Marmatou.git',
-        info: "'Marmatou' was a practical work in my training. This practical work involved Agile Methodology, Bootstrap, JavaScript and API Requests. The goal of the website was to be abble to get data from an API that matched the words the user wrote on the Search Bar.",
+        info: "'Marmatou' was a practical work in my training. This practical work involved Agile Methodology, Bootstrap, JavaScript and API Requests. The goal of the website was to be able to get data from an API that matched the words the user wrote on the Search Bar.",
         picture: './media/projects-icon/marmatou.jpg'
     },
     {
@@ -15,7 +15,7 @@ export const portfolioData =
         languages:["kotlin"],
         languagesIcons:["fab fa-android"],
         source:"https://github.com/milaneuh/bee-message",
-        info: "'Bee Message' is an instant messaging app on Android. This app was made in Kotlin and used Firebase Firestore as a database and used Firebase Cloud Messaging for the messaging solution.",
+        info: "'This app was made in Kotlin and used Firebase Firestore as a database and Firebase Cloud Messaging for the messaging solution.",
         picture:'./media/projects-icon/beeMessage.png'
     },
     {
