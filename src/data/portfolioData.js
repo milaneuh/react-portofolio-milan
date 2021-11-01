@@ -20,7 +20,7 @@ export const portfolioData =
     },
     {
         id:3,
-        name:'Chat Web-Application',
+        name:'Chat App',
         languages:["php","css","javascript"],
         languagesIcons:["fab fa-php","fab fa-css3-alt","fab fa-js"],
         source:"https://github.com/milaneuh/Web-chat-app",
@@ -38,7 +38,7 @@ export const portfolioData =
     },
     {
         id:5,
-        name:"Practical Project Bootstrap",
+        name:"Practical Project",
         languages:["bootstrap","css"],
         languagesIcons:["fab fa-bootstrap","fab fa-css3-alt"],
         source:"https://github.com/milaneuh/Practical-Project-Bootstrap",

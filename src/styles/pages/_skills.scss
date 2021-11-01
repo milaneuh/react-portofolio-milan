@@ -183,6 +183,7 @@
             span {
               position: absolute;
               transform: translateX(2.2rem);
+              line-height: 1;
             }
           }
         }
@@ -228,6 +229,10 @@
       .experiences {
         grid-area: 2 !important;
         margin-left: 0 !important;
+        .exp1{
+          margin-bottom: 1rem;
+        }
+
       }
       .otherSkills {
         grid-area: 3 !important;
@@ -240,5 +245,11 @@
       .languagesFrameworks .years span:nth-child(2):before, .languagesFrameworks .years span:nth-child(3):before {
         height: 155px  !important;
     }
+    }
+
+    @media screen and (max-width: 280px) {
+      .skillsContent .otherSkills{
+        width: auto;
+      }
     }
   }
